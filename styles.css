@@ -1,0 +1,25 @@
+body{
+    background-color:#008374;
+    color: white;
+    position: static;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0; 
+    z-index: 2;
+    background-color: #008374;
+    
+}
+ 
+div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline-start: 450px;
+
+}
+
+div>p{
+    margin-right: 15%;
+}
